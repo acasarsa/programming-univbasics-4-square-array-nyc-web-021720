@@ -3,5 +3,6 @@ def square_array(array)
  while counter < array.length do
    newArray = [array[counter]*= array[counter]]
    counter += 1
+   newArray
  end
 end
