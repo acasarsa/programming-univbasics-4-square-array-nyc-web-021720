@@ -9,3 +9,5 @@ def square_array(array)
 
     newArray
 end
+
+def square_array(array)
