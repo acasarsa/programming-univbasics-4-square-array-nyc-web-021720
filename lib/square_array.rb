@@ -23,8 +23,8 @@ end
 def square_array(array)
 
   array.each do | num | #iterating over old array
-    num *= num #squaring it
+    num *= num #updating each element in array directly needs the *=
   end
 
-  array #returning newArray
+  array 
 end
