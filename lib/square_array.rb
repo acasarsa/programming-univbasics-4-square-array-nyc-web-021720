@@ -1,12 +1,12 @@
 # def square_array(array)
 #   counter = 0
 #   newArray = []
-# 
+#
 #   while counter < array.length do
 #     newArray << array[counter] * array[counter]
 #     counter += 1
 #   end
-# 
+#
 #     newArray
 # end
 
@@ -18,4 +18,13 @@ def square_array(array)
   end
 
   newArray #returning newArray
+end
+
+def square_array(array)
+
+  array.each do | num | #iterating over old array
+    num *= num #squaring it
+  end
+
+  array #returning newArray
 end
